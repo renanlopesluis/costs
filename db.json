@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "name": "Plano A",
+      "budget": "1000",
+      "category": {
+        "id": "1",
+        "name": "Encadernamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Encadernamento"
+    },
+    {
+      "id": 2,
+      "name": "Banner"
+    },
+    {
+      "id": 3,
+      "name": "Cartazes"
+    },
+    {
+      "id": 4,
+      "name": "Outros"
+    }
+  ]
+}
