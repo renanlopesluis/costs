@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Message from '../../forms/Message/Message';
 import Container from '../../layout/Container/Container';
 import LinkButton from '../../forms/LinkButton/LinkButton';
-import Card from '../../forms/Card/Card';
+import ProjectCard from '../../forms/ProjectCard/ProjectCard';
 import Loader from '../../forms/Loader/Loader';
 import styles from './Projects.module.css';
 
@@ -62,7 +62,7 @@ function Projects(){
             <Container customClass="start">
                 {projects.length > 0 && 
                     projects.map((project) =>(
-                        <Card 
+                        <ProjectCard 
                         key={project.id}
                         id={project.id} 
                         name={project.name} 

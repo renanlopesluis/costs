@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Plano A",
-      "budget": "1000",
+      "budget": "2000",
       "category": {
         "id": "1",
         "name": "Encadernamento"
